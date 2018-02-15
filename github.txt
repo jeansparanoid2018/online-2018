@@ -1,0 +1,10 @@
+cd 'C:\Users\Schizophrenia\Desktop\jeansparanoid2018@gmail.com\2018'
+git init
+git add .
+git commit -m "15 feb"
+git config --global user.email "jeansparanoid2018@gmail.com"
+git config --global user.name "jeansparanoid2018"
+git remote add origin https://github.com/jeansparanoid2018/online-2018.git
+git push origin master
+
+git credential-manager uninstall

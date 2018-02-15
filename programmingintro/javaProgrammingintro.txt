@@ -1,0 +1,66 @@
+1. encapsulation
+ achieved through methods (invoked to do an action).
+2. our program extends basic programs to achieve 
+ inheritance (previously defined).
+3. when we want to execute a known number of times, use for loop 
+but when dont know about the number of times we execute a step, use while loop.
+4. common error: 
+ syntax is correct, but what program was intended to do, didnt happen
+5. OfByOneBug: 
+ you have done n times but 1 more time, we forgot to do.
+6. comment, for reading purpose only, no interference 0n execution.
+	File: Program.java
+	-------------------------------
+	program runs a chase 
+	
+/** Method: ascendHurdle
+**	Pre-condition: Facing east
+**	Post-condition: Facing east again
+**/
+7. Step-wise refinement: break into steps until its understandable. 
+	else break into smaller pieces. this Top down design approach 
+	(think abstract and break down)
+	but bottom up design approach is what every body starts with. 
+	as smaller pieces is easier to do. and then do the next big step
+8. algorithm: an approach to some thing using top down approach
+	move(); 
+	doubleBeeper(); --	LOOP[pickBeeper();move();putBeeper();putBeeper();moveBackward();]
+	moveBackward();	--	turnAround();move();turnaround();
+9. good software engineering
+	10 times more effort to fix a software after initial development
+	and 10 times many a update happens then the initial release
+10. decomposition
+	solve one problem. 15 avg lines long method. good naming conventions. comments.
+11. 1946: ENIAC electronic numeric integrator and calculator
+12. 1971: intel 4004, micro processor
+13. Comp Science is study of problem solving with computational method
+	Programming is an artifact.
+14. machine lang (defined by hardware) what computer understands, binary
+	high level language. ex java, c++, basic
+	translation from HL to ML is compilation (compiler ex eclipse)
+15. Normally = Source Code -(compiler)- Object Code -(linker with other obj file)- executable file
+	object code here is different for different platform ex MAC, PC
+16. In Java = Source code -(compiler)- numeric/intermediate lang(class file) 
+			-(linker)- JAR -(JVM understands)- output
+	but here java object code is same across platform, 
+	but JVM for MAC, PC are different but understands common object code.
+17. JAVA: object oriented programming. Class (TEMPLATE/BLUE PRINT)
+	class - encapsulation of some behaviors(methods N action) and data(fields N variables)
+	classes are organized with hierarchy. 
+	public class superkarel extends karel { ..............
+	SK extends K functionality. SK is subclass of K. SK does all K things, and does more.
+	ex humans extends primates. 	primates extends animals.
+		monkey extends primates.
+	animals[food,blastula embryo];	primates[thumbs,5 fingers]; human[adv brain]; 
+	keerthi, object is an example, instance of a class (all characteristics of classes up)
+18. variables, box where we stick stuff.
+	name, type(what kind is stored) and value
+	primitives: int, long, float, double, boolean, char
+	give variable a initial value when it makes sense
+	type variable = value; (statement and expressions and assignment)
+19. operators + - * / %
+
+20. cast
+	double d =(double)5/2; 
+21.  static, every object instance share the same thing.
+22. 
